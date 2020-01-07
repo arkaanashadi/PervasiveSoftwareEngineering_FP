@@ -64,8 +64,8 @@ def main():
         cam.camera_take(image_save_dir+img_name)
         time.sleep(1)
         relay.relay(Relay, 1)
-        # upload_blob(bucket_name, "measure.txt", "data.json")
-        # upload_blob(bucket_name, image_save_dir+img_name, str(image_save_dir+cur_date+"/"+img_name))
+        upload_blob(bucket_name, "measure.txt", "data.json")
+        upload_blob(bucket_name, image_save_dir+img_name, str(image_save_dir+cur_date+"/"+img_name))
 
 if __name__ == "__main__":
     while(True):
