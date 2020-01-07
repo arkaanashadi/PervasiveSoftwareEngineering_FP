@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-import time
+import datetime
 import ultrasonic as usonic
 import camera as cam
 import relay
@@ -32,7 +32,7 @@ def main():
         print(measure1, measure2)
 	#with open(measure.txt,'w') as capacity:
        	#	capacity.write(str(measure1))
-        cur_time = str(time.time())
+        cur_time = str(date.strftime("%Y-%m-%d %H:%M:%S"))
         img_name = str(cur_time)+".jpg"
         print(img_name)
         relay.relay(Relay, 0)
