@@ -6,7 +6,7 @@ use Google\Cloud\Storage\StorageClient;
 
 $storage = new StorageClient([
     	'projectId' =>   "rich-ripple-262608",
-        'keyFilePath' => "../../mailbox-api-key.json",
+        'keyFilePath' => "mailbox-api-key.json",
 ]);
 $bucketName = "pse-oit-mailbox";
 $bucket = $storage->bucket($bucketName);
