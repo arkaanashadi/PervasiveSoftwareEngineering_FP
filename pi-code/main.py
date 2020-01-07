@@ -46,7 +46,7 @@ def main():
 
         json_data = {
         "latest":{
-            "file":img_name,
+            "file":str(cur_date+"/"+img_name),
             "date":cur_date, 
             "time":cur_time
             },
