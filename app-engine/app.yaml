@@ -6,3 +6,8 @@ runtime: php72
 # run a long-running PHP script as a worker process (e.g. "php worker.php").
 #
 # entrypoint: serve index.php
+
+# env_variables:
+  # GOOGLE_STORAGE_BUCKET: pse-oit-mailbox
+  # API_KEY_PATH: /Users/o_o/Documents/Pervasive Software engineering/Pervasive_FP/code/app-engine/PSE-FP-0b45c33ca06e.json
+  # PROJECT_ID: rich-ripple-262608
