@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 import datetime
+import time
 import ultrasonic as usonic
 import camera as cam
 import relay
