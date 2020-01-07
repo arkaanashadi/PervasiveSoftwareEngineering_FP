@@ -36,6 +36,7 @@ def main():
 	#with open(measure.txt,'w') as capacity:
        	#	capacity.write(str(measure1))
         date = datetime.datetime.now()
+        cur_date = str(date.strftime("%Y-%m-%d"))
         cur_time = str(date.strftime("%Y-%m-%d %H:%M:%S"))
         img_name = str(cur_time)+".jpg"
         print(img_name)
@@ -43,7 +44,7 @@ def main():
         cam.camera_take(img_name)
         time.sleep(1)
         relay.relay(Relay, 1)
-        upload_blob(bucket_name, img_name, img_name)
+        upload_blob(bucket_name, img_name, str(cur_date+"/"+img_name))
 
 if __name__ == "__main__":
     while(True):
