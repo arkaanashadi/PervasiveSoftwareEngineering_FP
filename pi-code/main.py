@@ -49,7 +49,7 @@ if __name__ == "__main__":
     while(True):
         try:
             main()
-        except(KeyboardInterupt):
+        except KeyboardInterrupt:
             GPIO.cleanup()
             break
 
