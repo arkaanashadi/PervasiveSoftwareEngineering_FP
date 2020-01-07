@@ -44,7 +44,7 @@ def main():
         cam.camera_take(img_name)
         time.sleep(1)
         relay.relay(Relay, 1)
-        upload_blob(bucket_name, img_name, str(cur_date+"/"+img_name))
+        upload_blob(bucket_name, img_name, str("Mailbox-Images/"+cur_date+"/"+img_name))
 
 if __name__ == "__main__":
     while(True):
