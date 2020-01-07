@@ -33,6 +33,7 @@ def main():
         print(measure1, measure2)
 	#with open(measure.txt,'w') as capacity:
        	#	capacity.write(str(measure1))
+        date = datetime.datetime.now()
         cur_time = str(date.strftime("%Y-%m-%d %H:%M:%S"))
         img_name = str(cur_time)+".jpg"
         print(img_name)
