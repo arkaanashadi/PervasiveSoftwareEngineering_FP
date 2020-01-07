@@ -32,8 +32,8 @@ def main():
     if GPIO.input(Laser) == False:
         print("Laser Detected")
         time.sleep(3)
-        measure1 = (usonic.measure(Trig, Echo)/30)*100
-        measure2 = (usonic.measure(Trig2, Echo2)/30)*100
+        measure1 = usonic.measure(Trig, Echo)
+        measure2 = usonic.measure(Trig2, Echo2)
         print(measure1, measure2)
 
         date = datetime.datetime.now()
