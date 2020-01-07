@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rich-ripple-262608",
+  "private_key_id": "0b45c33ca06eec74f58fafdb34f8b214e8e98708",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCh9z0z3S0eXOaS\nRrdU4Kb6ZgFe549NnSvUBQHj1i2bJPmSWs6agr4skolHmA1Prmmb9y0EL9cn+AvJ\nqko1tKQ/5GO/96VYQED24yErkCSQGiTgyzP+XZqbti9jiB0BN1Ej27lT9iADM86e\nBf0OoZ4ist8WUOpxzpCe6ZM50kQXI7Ys73JQ9zoPN/6oeTZePFVL6Azv01Zz7geA\n3DR7vO47A6HWog0huvrzfM3HGO7UdregVLTm1q59zguUa0x32AgzJu79QX8EeSAe\nYFZozYHE/8Nro9eXIfNN5YLaugSnzd1vYXgZHzEEvXCyCaEOLOUzEDl+vF4AgSk3\n12TkWLE3AgMBAAECggEAD4gSmDQGgDN8Cam6w1EdUhFdrxWMU9U7/1BRNq4yoDHZ\nT1diTPjREDWN8PQ8APJPWFB8qNRTN2PKJZctF9DwMakbuhK41vZA0V9FSAf1KaII\nLuWHLkZMB2orr/y8405dro82F3IYiC+vCZvpzdeVWLh61VYCSJ8vySPKJX2FxnFU\nHTngyD0+5oDZJ1FIW56rzFAFaeWgp+7JxNCmmUKgz8HYK9Jafl/wx2VxZDNNbutJ\n1mfYJuVP7nuroA4ntGe9iRjuDBSbw/bjvhyizpH5ZclT61Ve1EOhAfr2/PN7VcbK\nvthnrPxjG8U+ssuo4W1Ci61reOL8Wclrfb2q3zpTqQKBgQDZRKsTEyMZFf62iv+w\n3oAoaXS+Vb2U8BtnVRJDYCAjP3lDUJlOnNdg7OU1gL64ilCUgwJ3E3U/JtyA6mAy\nLcezydNTcPpSoMpCM8fEJINDt0aURkjGbYy0biktwPqxecj8MpiQsB7/V77KDGFL\nLTl48havtk9u1PRWrUUmev8b4wKBgQC+1sSSQKu26T/xjC5x2kU2rYTsc45+sAJ+\nIhfdyXuEnlAx9RRXOCbr3z/5tb/PiCysORc4DU+CuKYx2YpkN0Rdy40T/cUr5L52\nvGEmvE+Wi/yvYCgJUMiThyv+vzMrmYliWRS6+B1haxaVcG+B+4U0YHSuPnzu6RjX\nCjwfVdq9nQKBgQCGhH1m0fJpFbUeT/D/EMNIQgKF1ZALJp3Q3FryXBGJwULS6pQA\nmBrBZ+qBtbRfjUNWr8ZW8zUkZGshZfspFi8OoWa1wr05a1POqUCFsBWVV2Pbaail\nMi5rh8j3CwQr3bsSakELU//dF/aIIiIa6WUr/LcPE1Eazb55681khcJtAQKBgQCU\n/1m6VoO666HhFXGtsp0Xc6K0egRnJUTM9hFsOEMX6AL0/kRDVLQOtN9eN2jqv4ch\nb/GQ8dOCXGhlw1Mpq3zVPneHhDrNamrKiYnQlHYPNHy08H5Rx6DSjlbrLpzlDZsW\nDjcBQ3as+M9JHd/xvE7j9esjn+YrIhMi0fre/EksgQKBgGeV/4Jt0TEDucVIFNBI\nZMUQLuBrF90D1TuYuIZaVfH6wBiWeVfVoMWOanlRJy2qMrVhVkGxVWmhJmCfGaIl\nXkUR3asPiH/tjSTjz7oLamYRakJrHY0v7zrL62zzz5w/cRKumbAAvbLCeoTW6iON\np4yMsPI0PNJ3qdUntvPx9ats\n-----END PRIVATE KEY-----\n",
+  "client_email": "rich-ripple-262608@appspot.gserviceaccount.com",
+  "client_id": "105458379756229547599",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rich-ripple-262608%40appspot.gserviceaccount.com"
+}

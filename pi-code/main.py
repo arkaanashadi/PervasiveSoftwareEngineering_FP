@@ -5,6 +5,8 @@ import ultrasonic as usonic
 import camera as cam
 import relay
 from gcp import upload_blob
+import os
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "mailbox-api-key.json"
 
 GPIO.setmode(GPIO.BOARD)
 
