@@ -6,6 +6,7 @@ import camera as cam
 import relay
 from gcp import upload_blob
 import json
+import sendmail
 import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "mailbox-api-key.json"
 
@@ -66,6 +67,8 @@ def main():
         relay.relay(Relay, 1)
         upload_blob(bucket_name, "data.json", "data.json")
         upload_blob(bucket_name, image_save_dir+img_name, str(image_save_dir+cur_date+"/"+img_name))
+        body = "Your mailbox was triggered on {0} {1}\nYou can view more info on https://rich-ripple-262608.appspot.com".format(cur_date, cur_time)
+        sendmail.send_mail("IOT Mailbox got Mail", body)
 
 if __name__ == "__main__":
     while(True):
