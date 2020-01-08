@@ -15,14 +15,14 @@ def send_mail(subject, body):
 
 	print(header + '\n' + body)
 
-	# s = smtplib.SMTP("smtp.gmail.com", 587)
+	s = smtplib.SMTP("smtp.gmail.com", 587)
 
-	# s.ehlo()
-	# s.starttls()
-	# s.ehlo()
+	s.ehlo()
+	s.starttls()
+	s.ehlo()
 
-	# s.login(smtpUser, smtpPass)
-	# s.sendmail(fromAdd, toAdd, header + "\n\n" + body)
+	s.login(smtpUser, smtpPass)
+	s.sendmail(fromAdd, toAdd, header + "\n\n" + body)
 
 	jsonData.close()
 	# s.quit()
