@@ -11,6 +11,9 @@ include 'utility.php'
 	<?php
 		printf("<p>Latest capture on %s %s</p>".PHP_EOL, $dataJson->latest->date, $dataJson->latest->time);
 		printf("<IMG SRC='https://storage.googleapis.com/%s/Mailbox-Images/%s' /> <br>".PHP_EOL, $bucketName, $dataJson->latest->file);
+		$percentage = 100;
+		$percentage = $percentage - $dataJson->avg;
+		printf("<p>Mailbox approximately %s%% full</p>".PHP_EOL, ($percentage));
 	?>
 	<h1>Other Dates</h1>
 	<ul style="list-style-type:none; padding: 0">
